@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "sources": {
+    "my-source": {
+      "type": "geojson",
+      "data": "https://drive.google.com/file/d/12grmHDLnBmbeCn3DY5tH2eWM376IX3Bp/view?usp=drive_link"
+    }
+  },
+  "layers": [
+    {
+      "id": "points",
+      "type": "circle",
+      "source": "my-source",
+      "paint": {
+        "circle-radius": 6,
+        "circle-color": "#007cbf"
+      }
+    }
+  ]
+}
